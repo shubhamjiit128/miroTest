@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation_Miro" allow-return-values="true"
+	thread-count="1">
+	<listeners>
+		<listener class-name="com.listeners.WebDriverListener"></listener>
+		<listener class-name="com.listeners.RetryListener"></listener>
+	</listeners>
+
+	<test name="User Signupr" group-by-instances="true">
+		<parameter name="browserName" value="chrome"></parameter>
+		<classes>
+			<class name="test_scripts.TestUserSignUp" />
+		</classes>
+	</test>
+	
+</suite> <!-- Default suite -->

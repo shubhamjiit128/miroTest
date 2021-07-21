@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-21T09:49:28 IST" name="Automation_Miro" finished-at="2021-07-21T09:49:56 IST" duration-ms="27644">
+    <groups>
+    </groups>
+    <test started-at="2021-07-21T09:49:28 IST" name="User Signupr" finished-at="2021-07-21T09:49:56 IST" duration-ms="27644">
+      <class name="test_scripts.TestUserSignUp">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:test_scripts.TestUserSignUp@61ce23ac]" started-at="2021-07-21T09:49:29 IST" name="setUp" finished-at="2021-07-21T09:49:36 IST" duration-ms="7011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_scripts.TestUserSignUp.validateInvalidUserSignupTest(inputs.User) throws java.io.IOException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateInvalidUserSignupTest(inputs.User)[pri:0, instance:test_scripts.TestUserSignUp@61ce23ac]" started-at="2021-07-21T09:49:36 IST" name="validateInvalidUserSignupTest" data-provider="invalidUser" finished-at="2021-07-21T09:49:38 IST" duration-ms="2197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[inputs.User@438abd74]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidUserSignupTest -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:test_scripts.TestUserSignUp@61ce23ac]" started-at="2021-07-21T09:49:38 IST" name="setUp" finished-at="2021-07-21T09:49:43 IST" duration-ms="4856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_scripts.TestUserSignUp.validateNewUserSignupTest(inputs.User) throws java.io.IOException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateNewUserSignupTest(inputs.User)[pri:0, instance:test_scripts.TestUserSignUp@61ce23ac]" started-at="2021-07-21T09:49:43 IST" name="validateNewUserSignupTest" data-provider="newUser" finished-at="2021-07-21T09:49:47 IST" duration-ms="3693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[inputs.User@f413b76]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewUserSignupTest -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:test_scripts.TestUserSignUp@61ce23ac]" started-at="2021-07-21T09:49:47 IST" name="setUp" finished-at="2021-07-21T09:49:54 IST" duration-ms="6822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_scripts.TestUserSignUp.validateRegisteredUserSignupTest(inputs.User) throws java.io.IOException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisteredUserSignupTest(inputs.User)[pri:0, instance:test_scripts.TestUserSignUp@61ce23ac]" started-at="2021-07-21T09:49:54 IST" name="validateRegisteredUserSignupTest" data-provider="registeredUser" finished-at="2021-07-21T09:49:56 IST" duration-ms="2160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[inputs.User@934fdb0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisteredUserSignupTest -->
+      </class> <!-- test_scripts.TestUserSignUp -->
+    </test> <!-- User Signupr -->
+  </suite> <!-- Automation_Miro -->
+</testng-results>
